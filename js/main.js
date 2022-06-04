@@ -1,5 +1,66 @@
+let productos = [`H`,`O`,`L`,`A`,'M','U','N','D','O' ];
+document.write('javascript: ');
 
-/*const tituloDelcitioweb = 'Hola'
+for(let i=0; i<=0; i++){
+    document.write(`${productos[0]}`);
+    document.write(`${productos[1]}`);
+    document.write(`${productos[2]}`);
+    document.write(`${productos[3]}`);
+    document.write(`${productos[4]}`);
+    document.write(`${productos[5]}`);
+    document.write(`${productos[6]}`);
+    document.write(`${productos[7]}`);
+    document.write(`${productos[8]}`);
+}
+
+
+/*
+const producto1 = (prompt("Ingresa el producto que queres"));
+const zapatilla = 'nike'
+let zapatillaCostoNike1 = 6000
+const zapatilla2 = 'adidas'
+let zapatillaCostoAdidas2 = 9000
+const zapatilla3 = 'puma'
+let zapatillaCostoPuma3 = 2000
+
+for (let i = 0; i <= 1; i++) {
+if (producto1 <= ('') ){
+alert('No agregaste un producto')+ producto1}
+if(queresSeguir === ('si')){
+    producto1 == zapatilla}}
+    if(producto1 === zapatilla){
+(alert(zapatillaCostoNike1))
+queresSeguir = prompt ('Queres seguir comprando?')}
+if(queresSeguir === ('si')){
+producto1 = (prompt("Ingresa el producto que queres"));
+}
+if(producto1 === zapatilla2){
+(alert(zapatillaCostoAdidas2))
+}
+if(queresSeguir === ('si')){
+producto1 = (prompt("Ingresa el producto que queres"));
+}
+
+if(producto1 == zapatilla3){
+costoTotal = zapatillaCostoPuma3;
+alert(costoTotal)
+}
+
+else{
+alert('No agregasyte a zapa correcta ')}
+
+
+
+
+
+
+
+
+
+
+
+
+const tituloDelcitioweb = 'Hola'
 const boTon = '<button type="button" class='
 
 document.write(tituloDelcitioweb);
@@ -41,24 +102,14 @@ if((edad >=18 && tieneEntrada) || hijoDelDuenio){
 }else{
     console.log("no podes entrar")
 }*/
-const bienvenidos = "¡Bienvenid@! El evento empezara pronto";
-const soporte = 'Igrese al siguiente link para contactar a un agente 👉🏻 https://www.google.com/';
-const oro = 'oro';
-const plata = 'plata';
-const bronce = 'bronce';
-const  entradas = (prompt('Ingrse el color de su entrada:'));
 
-while(entradas == ('') ){
-alert('No agregaste una entrada');
-console.log('No agregaste una entrada');
-document.write(soporte)}
 
- if (entradas == oro || (entradas == 'Oro')){
+/*
+ if (entradas == oro || String.toUpperCase(oro)){
 alert('Sos parte de la zona vip del evento');
 console.log('Sos parte de la zona vip del evento');
 document.write(bienvenidos);
 console.log(bienvenidos);}
-
 
 else if ( entradas == plata || (entradas == 'Plata')){
 alert('sos parte de la zona media del evento')
@@ -75,13 +126,10 @@ console.log(bienvenidos)
 else {
 alert("No ingresate una entrada valida");
 console.log("No ingresate una entrada valida")
+entradas = (prompt('Ingrse el color de su entrada:'));
 document.write(soporte)
 console.log(soporte)
 } 
-
-
-    
-
 /*
 if (entradas == 'oro'){
 alert("sos parte de la zona vip del evento");
